@@ -1,0 +1,23 @@
+<html>
+  <head>
+    <title>Title</title>
+    <script>
+    let count = 0
+      function  next()
+      {
+        count++
+        document.querySelector("h1").innerHTML=count;
+      }
+      function  pre()
+      {
+        count++
+        document.querySelector("h1").innerHTML=count;
+      }
+    </script>
+  </head>
+  <body>
+    <h1>0</h1>
+    <button onclick="next()">Next</button>
+    <button onclick="pre()">Next</button>
+   </body>
+</html>
